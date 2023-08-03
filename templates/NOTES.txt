@@ -1,4 +1,6 @@
-1. Get the application URL by running these commands:
+
+Congrats you deployed your lil next app
+
 {{- if .Values.ingress.enabled }}
 {{- range $host := .Values.ingress.hosts }}
   {{- range .paths }}
